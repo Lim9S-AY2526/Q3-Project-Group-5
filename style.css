@@ -1,0 +1,34 @@
+   body { 
+     font-family: Arial, sans-serif;
+      background: url('https://wallpapers.com/images/hd/blurred-train-passing-platform-number-three-jpg-y7l1hm6o1rswx7uw.jpg') no-repeat center center fixed;
+      background-size: cover;
+   }
+h1, h2 {
+  text-shadow: 2px 2px 4px #000;
+}
+
+footer {
+  font-size: 14px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: url('https://wallpapers.com/images/hd/blurred-train-passing-platform-number-three-jpg-y7l1hm6o1rswx7uw.jpg') no-repeat center center fixed; /* dark highway background */
+  background-size: cover;
+}
+
+h1, h2 {
+  text-shadow: 2px 2px 4px #000;
+}
+#farematrix {
+  display: none; 
+}
+
+#schedule {
+  display: none; 
+}
+
+
+footer {
+  font-size: 14px;
+}

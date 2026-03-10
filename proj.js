@@ -66,3 +66,9 @@ let basefare = 50;
     function verifyEmail() {
   document.getElementById("verifyMessage").innerHTML = "✅ Email verified successfully!";
 }
+
+function showBook() {
+  document.getElementById("book").style.display = "block";
+  document.getElementById("book").scrollIntoView({ behavior: "smooth" });
+}
+

@@ -24,7 +24,6 @@
                 <li class="nav-item">
         <a class="nav-link" href="#" onclick="showFareMatrix()">Fare Matrix</a>
         </li>
-<a class="btn btn-success me-2" href="registration.html">Book Now</a>
 
 
 <li class="nav-item">
@@ -36,8 +35,8 @@
 
 
             </ul>
-            
-            <a class="btn btn-success me-2" href="book.html">Book Now</a>
+            <a class="btn btn-success me-2" href="#" onclick="showBook()">Book Now</a>
+
             <a class="btn btn-primary" href="registration.html">Create Account</a>
             </div>
         </div>
@@ -147,6 +146,21 @@
         <p class="text-muted text-center">*Schedules are subject to change depending on operations.</p>
         </div>
         </div>
+<div id="book" class="container mt-5 p-4 bg-light rounded shadow" style="display:none;">
+  <h2 class="text-center mb-4">Book Your Ride</h2>
+  <form>
+    <label class="form-label">Pickup Station:</label>
+    <input type="text" class="form-control w-75 mx-auto" placeholder="Enter pickup station">
+
+    <label class="form-label mt-3">Drop-off Station:</label>
+    <input type="text" class="form-control w-75 mx-auto" placeholder="Enter drop-off station">
+
+    <label class="form-label mt-3">Date & Time:</label>
+    <input type="datetime" class="form-control w-75 mx-auto">
+
+    <button type="submit" class="btn btn-success mt-4">Confirm Booking</button>
+  </form>
+</div>
 
         <br> <br> <br> <br> <br>
         <footer class="bg-dark text-white text-center p-3 fixed-bottom">
